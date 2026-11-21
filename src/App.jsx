@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from "./components/navbar";
-import Home from "./pages/Home";
+import Navbar from './components/navbar.jsx'
+import Home from "./pages/Home.jsx";
 export default function App(){
   return(
 <div>
