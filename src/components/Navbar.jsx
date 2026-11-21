@@ -10,7 +10,7 @@ const links = [
   ["Contact", "contact"],
 ];
 
-export default function Navbar() {
+const Navbar =()=> {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("home");
 
@@ -69,3 +69,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+export default Navbar
